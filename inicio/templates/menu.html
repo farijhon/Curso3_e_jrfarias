@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Menu</title>
+</head>
+<body bgcolor=»#808080»>
+<body background ="https://images.wallpapersden.com/image/wxl-irene-bae-joo-hyun-red-velvet-face_73381.jpg">
+<h1>Usuarios: {{ usuarioStr }}</h1>
+    <div class="container">
+        <h2>Listado</h2>
+        <ul>
+            {%  for trabajadorRegistro in trabajadorlist %}
+            <li>{{  trabajadorRegistro.nombre }}</li>{% endfor %}
+        </ul>
+    </div>
+
+<h2><center>Bae Joo hyun Cantante/Bailarina</center></h2>
+<h3><center>Coreana</center></h3>
+<img src='https://assets.mycast.io/actor_images/actor-bae-joo-hyun-irene-261645_large.jpg?1629892867' alt="Deleitate">
+<p><label for="email">Dejame tu correo para recibir actualizaciones:</label></p>
+
+    <input type="email" id="email"
+           pattern=".+@globex\.com" size="30" required>
+    <input type="submit" value="envia" />
+    <nav>
+
+    <p>Bienvenid@, aqui encontraras imagenes de tu estrella favorita
+        <a href="https://www.deepfakevfx.com/celebrity-facesets/bae-joo-hyun-irene-6138/">Fondos de pantalla</a>, tambien verás el contenido en
+        <a href="https://www.instagram.com/renebaebae/?hl=es-la">Pagina de instagram</a>,
+        <a href="https://www.wikifeet.com/Joo-Hyun_Bae">Imagenes al azar</a> y los
+        <a href="https://www.facebook.com/profile.php?id=100067024052633">Pagina de Facebook</a>. No olvides
+        <a href="https://accounts.google.com/v3/signin/identifier?dsh=S1644427132%3A1671322037473250&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&rip=1&sacu=1&service=mail&flowName=GlifWebSignIn&flowEntry=ServiceLogin&ifkv=AeAAQh4CcdIHjm_z7uch6HqAKvMFlgLpBoa7eVgESNK8bD-jAddv-t4FcyOzujSe-jnLGSf7nxx4Gg">contacta al email p.......@gmail.com</a> en caso de que tengas alguna consulta.</p>
+    </nav>
+</body>
+<footer>
+    <p>&copy; 2022 End </p>
+    <ul>
+      <li><a href="https://www.reddit.com/r/kpics/comments/8ioblr/bae_joohyun_irene/">Referencias</a></li>
+      <li><a href="https://www.facebook.com/groups/440068537309616">Redes Sociales</a></li>
+    </ul>
+  </footer>
+</html>

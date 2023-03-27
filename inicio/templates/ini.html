@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+       <meta charset="UTF-8">
+       <title>Inicio</title>
+</head>
+<body style="background-color:cornflowerblue">
+
+
+       <form method="POST" action="/loginAction/">
+           {% csrf_token %}
+       <h4>Bienvenidos al Fan Page de Irene !</h4>
+       <h5>{{ err }}</h5>
+       <input type="text" name="userInTx" placeholder="Usuario" required="required" />
+           <input type="password" name="passwordInPs" placeholder="Contraseña" required="required" />
+           <button type="submit" class="btn btn-primary btn-block btn-large">Login</button>
+
+
+
+</form>
+</body>
+</html>
